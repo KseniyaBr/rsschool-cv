@@ -1,1 +1,1 @@
-my CV at the following [link](https://your-github-account.github.io/rsschool-cv/)
+My CV at the following [link](https://kseniyabr.github.io/rsschool-cv-test/cv)
