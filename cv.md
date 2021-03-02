@@ -1,7 +1,7 @@
 Kseniya Barkova
 =
 Tel-Aviv | 054-7461171 | Barkovakseniya@gmail.com
-___
+
 
 **Professional Summary** 
 * A self-educated, highly motivated web developer is seeking a Junior Web Developer position;
@@ -10,13 +10,15 @@ ___
 * Proficient in MS Office, especially Excel;
 * Experience with ERP system and Oracle database systems;
 * Russian, Hebrew, and English.
-___
+
+
 
 **Professional courses**
 * __10/2020__ – **Web Design and Website Development** – WAYUP PROJECT for web design and website development studying;
-* __06/19__ – **BI analyst** – Tel Aviv University's XTRA student center;
-* __12/15__ – **Advanced Level Excel** – IDF.
-___
+* __06/2019__ – **BI analyst** – Tel Aviv University's XTRA student center;
+* __12/2015__ – **Advanced Level Excel** – IDF.
+
+
 
 **Other Experience**
 
@@ -33,7 +35,8 @@ ___
     * Creation of a single year work plan operating budgets for a large number of units of the Ground Forces;
     * Examination of the economic feasibility of the procurement process;
     * Participation in the purchasing process including working in the ERP systems.
-___
+
+
 
 **Education**
 * __10/2014 – 06/2016__ – **Masters of Business Administration**
