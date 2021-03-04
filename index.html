@@ -13,14 +13,15 @@
   <div class="container">
     <div class="content">
       <aside class="side__content">
-        <section class="intro block">     
-          <img class="prof__photo" src="img/profilephoto.png" alt="profile photo">
-          <h1 class="full__name">Kseniya<br>Barkova</h1>
-          <span>Economist</span>
-          <p class="profession">Front-end developer
-          </p>
-        </section>
-        <section class="about block">
+         <figure class="intro block">
+           <figcaption class="candidate__description">
+             <p class="full__name">Kseniya<br>Barkova</p>
+             <span>Economist</span>
+             <p class="profession">Front-end developer</p>
+           </figcaption>
+          <img class="prof__photo" src="img/profilephoto.png" alt="Candidate's photo" />
+         </figure>
+         <section class="about block">
           <h3 class="block__title">About me</h3>
           <p class="about__text">I am a web developer just getting started.<br>After months of self-education using online courses, webinars, tutorials, and lots of practices, I would like to move on to real projects, work with a team of professionals, learn from them and gain experience.</p>
         </section>
@@ -58,10 +59,14 @@
           <ul class="block__list">
             <li><a href="https://github.com/KseniyaBr/CreateLine">LineCreate</a></li>
             <li><a href="http://myksenka.beget.tech/MNOP/HW5/">PhotoTrip</a></li>
-            <li><figure>
-                <figcaption>Fig1. - Example of code.</figcaption>
-                <img class="code-example" src="img/example-code.jpg" alt="example of code">
-              </figure>
+            <li><pre><code>
+                         $("a.arrow").click(function() {
+                         var elementClick = $(this).attr("href")
+                         var destination = $(elementClick).offset().top;
+                         jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop:destination}, "slow");
+                         return false;
+                          });
+               <code><pre>     
             </li>
           </ul>        
         </section>
@@ -83,9 +88,9 @@
       </main>
     </div>    
     <footer class="footer">
-      <a href="https://rs.school/js/" class="rss-logo"></a>
-      <a href="https://github.com/KseniyaBr"></a>
-      <h3 class="year">2021</h3>
+      <a href="https://rs.school/js/">
+        <img class="rss-logo" src="img/rs_school_js.svg" alt="The Rolling Scopes.JavaScript/Front-end"</a>
+      <p class="footer__text">2020 © <a href="https://github.com/KseniyaBr">MyKsenka</a></p>
     </footer>
   </div>
 </body>
