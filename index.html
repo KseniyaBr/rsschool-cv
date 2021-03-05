@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,10 +27,10 @@
         <section class="contacts block">
           <h3 class="block__title">Contacts</h3>
           <ul>
-            <li><i class="fas fa-map-marker-alt">Tel-Aviv, Israel</i></li>
+            <li><i class="fas fa-map-marker-alt"></i>Tel-Aviv, Israel</li>
             <li><i class="fas fa-mobile-alt"></i>+(972)54-746-11-71</li>
-            <li><i class="fas fa-at">Barkovakseniya@gmail.com</i></li>
-            <li><a href="https://github.com/KseniyaBr"><i class="fab fa-github">KseniyaBr</i></a></li>
+            <li><i class="fas fa-at"></i>Barkovakseniya@gmail.com</li>
+            <li><a href="https://github.com/KseniyaBr"><i class="fab fa-github"></i>KseniyaBr</a></li>
           </ul>
         </section>
       </aside>
@@ -58,13 +57,20 @@
         <section class="code block">
           <h2 class="block__title">Projects</h2>
           <ul class="block__list">
-            <li><a href="https://github.com/KseniyaBr/CreateLine">LineCreate</a></li>
-            <li><a href="http://myksenka.beget.tech/MNOP/HW5/">PhotoTrip</a></li>
-            <li><figure>
-                <figcaption>Fig1. - Example of code.</figcaption>
-                <img class="code-example" src="img/example-code.jpg" alt="example of code">
-              </figure>
-            </li>
+            <li><a href="https://github.com/KseniyaBr/CreateLine"><span>LineCreate</span> - landing page for photo tours company;</a></li>
+            <li><a href="http://myksenka.beget.tech/MNOP/HW5/"><span>PhotoTrip</span> - landing page for app photo editing and sharing;</a></li>
+            <li><span>Example of code:</span><pre>
+            	  <code>
+  $("a.arrow").click(function() {
+   var elementClick = $(this).attr("href")
+   var destination = $(elementClick).offset().top;
+   jQuery("html:not(:animated),body:not(:animated)")
+   .animate({scrollTop:destination}, "slow");
+   return false;
+   });
+			      </code>
+				</pre>
+       		</li>
           </ul>        
         </section>
         <section class="education block">
@@ -83,12 +89,14 @@
             </ul>
         </section>
       </main>
-    </div>    
+    </div> 
     <footer class="footer">
-      <a href="https://rs.school/js/" class="rss-logo"></a>
-      <a href="https://github.com/KseniyaBr"></a>
-      <h3 class="year">2021</h3>
-    </footer>
+      <div class="footer__content">
+          <a href="https://rs.school/js/">
+            <img class="rss-logo" src="img/logo.svg" alt="The Rolling Scopes.JavaScript/Front-end"></a>
+          <p class="footer__text">2021 © <a href="https://github.com/KseniyaBr">MyKsenka</a></p>
+      </div>
+   </footer>   
   </div>
 </body>
 </html>
