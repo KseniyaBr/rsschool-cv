@@ -64,6 +64,7 @@ a {
 
 .prof__photo {
 	margin-bottom: 45px;
+	clip-path: circle(50%);
 }
 
 .full__name {
