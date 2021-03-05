@@ -13,22 +13,14 @@
     <div class="content">
       <aside class="side__content">
          <figure class="intro block">
-          <img class="prof__photo" src="img/profilephoto.png" alt="Candidate's photo"/>
-          <figcaption class="candidate__description">
-            <p class="full__name">Kseniya<br>Barkova</p>
-            <span>Economist</span>
-            <p class="profession">Front-end developer</p>
-          </figcaption>
-        </figure>
-        <section class="about block">
+           <img class="prof__photo" src="img/profilephoto.png" alt="Candidate's photo"/>
            <figcaption class="candidate__description">
              <p class="full__name">Kseniya<br>Barkova</p>
              <span>Economist</span>
              <p class="profession">Front-end developer</p>
            </figcaption>
-          <img class="prof__photo" src="img/profilephoto.png" alt="Candidate's photo" />
          </figure>
-         <section class="about block">
+        <section class="about block">
           <h3 class="block__title">About me</h3>
           <p class="about__text">I am a web developer just getting started.<br>After months of self-education using online courses, webinars, tutorials, and lots of practices, I would like to move on to real projects, work with a team of professionals, learn from them and gain experience.</p>
         </section>
@@ -46,11 +38,12 @@
         <section class="skills block">
           <h2 class="block__title">Key Competencies</h2>
           <ul class="block__list">
+            <li>Highly motivated, self-educated web developer is seeking a Junior Web Developer position;</li>
             <li>Good understanding of front-end technologies, including <span>HTML5, CSS3, JavaScript</span>;</li>
             <li>Knowledge of web design and the fundamentals of UI, and experience with <span>Figma</span>;</li>
             <li>Proficient in MS Office, especially <span>Excel</span>;</li>
             <li>Experience with <span>ERP</span> system and <span>Oracle DB</span> systems;</li>
-            <li>High motivation, ability to fast self-studying and work independently.</li>
+            <li>Ability to self-study and work independently</li>
           </ul>
         </section>
         <section class="courses block">
@@ -64,17 +57,20 @@
         <section class="code block">
           <h2 class="block__title">Projects</h2>
           <ul class="block__list">
-            <li><a href="https://github.com/KseniyaBr/CreateLine">LineCreate</a></li>
-            <li><a href="http://myksenka.beget.tech/MNOP/HW5/">PhotoTrip</a></li>
-            <li><pre><code>
-                         $("a.arrow").click(function() {
-                         var elementClick = $(this).attr("href")
-                         var destination = $(elementClick).offset().top;
-                         jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop:destination}, "slow");
-                         return false;
-                          });
-               <code><pre>     
-            </li>
+            <li><a href="https://github.com/KseniyaBr/CreateLine"><span>LineCreate</span> - landing page for photo tours company;</a></li>
+            <li><a href="http://myksenka.beget.tech/MNOP/HW5/"><span>PhotoTrip</span> - landing page for app photo editing and sharing;</a></li>
+            <li><span>Example of code:</span><pre>
+            	  <code>
+  $("a.arrow").click(function() {
+   var elementClick = $(this).attr("href")
+   var destination = $(elementClick).offset().top;
+   jQuery("html:not(:animated),body:not(:animated)")
+   .animate({scrollTop:destination}, "slow");
+   return false;
+   });
+			      </code>
+				</pre>
+       		</li>
           </ul>        
         </section>
         <section class="education block">
@@ -93,12 +89,14 @@
             </ul>
         </section>
       </main>
-    </div>    
+    </div> 
     <footer class="footer">
-      <a href="https://rs.school/js/">
-        <img class="rss-logo" src="img/rs_school_js.svg" alt="The Rolling Scopes.JavaScript/Front-end"></a>
-      <p class="footer__text">2020 © <a href="https://github.com/KseniyaBr">MyKsenka</a></p>
-    </footer>
+      <div class="footer__content">
+          <a href="https://rs.school/js/">
+            <img class="rss-logo" src="img/logo.svg" alt="The Rolling Scopes.JavaScript/Front-end"></a>
+          <p class="footer__text">2021 © <a href="https://github.com/KseniyaBr">MyKsenka</a></p>
+      </div>
+   </footer>   
   </div>
 </body>
 </html>
